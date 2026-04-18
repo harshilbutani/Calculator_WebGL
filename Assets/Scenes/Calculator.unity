@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 26296450}
   - component: {fileID: 26296451}
   m_Layer: 0
-  m_Name: Row0 (2)
+  m_Name: Row2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -193,6 +193,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1085154092}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (2)
@@ -374,6 +382,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 26296450}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell
@@ -512,6 +528,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1100231672}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: buttonType
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (1)
@@ -651,6 +671,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 26296450}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (1)
@@ -828,6 +856,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 26296450}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: '-'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: '-'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: buttonType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (3)
@@ -930,6 +970,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1786507307}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (2)
@@ -1169,6 +1217,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1786507307}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell
@@ -1355,6 +1411,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1841917447}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: buttonType
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell
@@ -1457,6 +1517,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1100231672}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: AC
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: AC
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: buttonType
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell
@@ -1559,6 +1631,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1100231672}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: "\xF7"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: "\xF7"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: buttonType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (3)
@@ -1661,6 +1745,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1841917447}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: =
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: =
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: buttonType
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (3)
@@ -1766,7 +1862,7 @@ GameObject:
   - component: {fileID: 1085154092}
   - component: {fileID: 1085154093}
   m_Layer: 0
-  m_Name: Row0 (1)
+  m_Name: Row1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1895,6 +1991,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1786507307}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (1)
@@ -1997,6 +2101,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1085154092}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell
@@ -2099,6 +2211,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1841917447}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (1)
@@ -2193,6 +2313,51 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8634451361419591593, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
   m_PrefabInstance: {fileID: 1375857891}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1383902040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1383902041}
+  - component: {fileID: 1383902042}
+  m_Layer: 0
+  m_Name: CalculationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1383902041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383902040}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.046875, y: -4.390928, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1383902042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383902040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89bb973b57cb9f84b90f37bf50e69bdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  calculatorScreen: {fileID: 1465768982}
 --- !u!1 &1465768974
 GameObject:
   m_ObjectHideFlags: 0
@@ -2318,6 +2483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b506f55e806bdd14e8caf929b0fa3154, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenText: {fileID: 1800131332}
 --- !u!1 &1554813196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2393,6 +2559,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 26296450}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (2)
@@ -2495,6 +2669,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1786507307}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: +
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: +
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: buttonType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (3)
@@ -2597,6 +2783,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1100231672}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: buttonType
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (2)
@@ -2702,7 +2892,7 @@ GameObject:
   - component: {fileID: 1786507307}
   - component: {fileID: 1786507308}
   m_Layer: 0
-  m_Name: Row0 (3)
+  m_Name: Row3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2904,7 +3094,7 @@ GameObject:
   - component: {fileID: 1841917447}
   - component: {fileID: 1841917448}
   m_Layer: 0
-  m_Name: Row0 (4)
+  m_Name: Row4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2967,6 +3157,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1085154092}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: X
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: X
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: buttonType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (3)
@@ -3069,6 +3271,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1085154092}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (1)
@@ -3171,6 +3381,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1841917447}
     m_Modifications:
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellToken
+      value: .
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: cellValue
+      value: .
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007934164600507596, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
+      propertyPath: buttonType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7529968414761174238, guid: 36e0cd7360b9b5c478809f85f070ee5a, type: 3}
       propertyPath: m_Name
       value: Cell (2)
@@ -3273,3 +3495,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 157379382}
   - {fileID: 1465768981}
+  - {fileID: 1383902041}

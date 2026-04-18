@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.34509805, g: 0.34509805, b: 0.36078432, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -130,6 +130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8634451361419591593}
+  - component: {fileID: 5007934164600507596}
   m_Layer: 0
   m_Name: Cell
   m_TagString: Untagged
@@ -157,6 +158,25 @@ RectTransform:
   m_AnchoredPosition: {x: 131, y: -97.65297}
   m_SizeDelta: {x: 262, y: 195.30594}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5007934164600507596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7529968414761174238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a663796cd43919a45a0907cd69fbfdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonType: 0
+  cellValue: 
+  operatorCellColor: {r: 1, g: 0.6313726, b: 0.24313726, a: 1}
+  digitCellColor: {r: 0.34509805, g: 0.34509805, b: 0.35686275, a: 1}
+  cellImage: {fileID: 5722678313182765888}
+  cellText: {fileID: 1831930253812035351}
+  cellButton: {fileID: 7711135661755545049}
 --- !u!1 &8861340425208262422
 GameObject:
   m_ObjectHideFlags: 0
