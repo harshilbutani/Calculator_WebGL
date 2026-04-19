@@ -31,6 +31,16 @@ public class Cell : MonoBehaviour
     
     public static event Action<string, Enums.CalculatorButtonType> OnCellPressed;
 
+    public static void EmitCellPressed(string value, Enums.CalculatorButtonType buttonType)
+    {
+        if (buttonType == Enums.CalculatorButtonType.None)
+        {
+            return;
+        }
+
+        OnCellPressed?.Invoke(value, buttonType);
+    }
+
     private void OnEnable()
     {
         SetCellColor();
@@ -106,7 +116,7 @@ public class Cell : MonoBehaviour
             Debug.Log("Operator Value: " + emittedValue);
         }
 
-        OnCellPressed?.Invoke(emittedValue, buttonType);
+        EmitCellPressed(emittedValue, buttonType);
     }
 
 }
