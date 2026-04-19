@@ -64,16 +64,24 @@ public class CalculationManager : MonoBehaviour
 
         if (buttonType == Enums.CalculatorButtonType.Operator)
         {
-            if (EndsWithOperator(currentExpression))
+            if (currentExpression == "0")
             {
-                Debug.Log("<color=yellow>Consecutive operators are not allowed.</color>");
+                Debug.Log("<color=yellow>Enter a number first.</color>");
                 RefreshDisplay();
                 return;
             }
 
-            if (currentExpression == "0")
+            if (EndsWithOperator(currentExpression))
             {
-                Debug.Log("<color=yellow>Enter a number first.</color>");
+                currentExpression = currentExpression.Substring(0, currentExpression.Length - 1) + value;
+                hasEvaluatedResult = false;
+                RefreshDisplay();
+                return;
+            }
+
+            if (EndsWithOperatorOrDecimalPoint(currentExpression))
+            {
+                Debug.Log("<color=yellow>Consecutive operators are not allowed.</color>");
                 RefreshDisplay();
                 return;
             }
