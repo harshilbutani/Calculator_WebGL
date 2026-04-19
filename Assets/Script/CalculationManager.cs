@@ -62,6 +62,23 @@ public class CalculationManager : MonoBehaviour
             return;
         }
 
+        if (buttonType == Enums.CalculatorButtonType.Operator)
+        {
+            if (EndsWithOperator(currentExpression))
+            {
+                Debug.Log("<color=yellow>Consecutive operators are not allowed.</color>");
+                RefreshDisplay();
+                return;
+            }
+
+            if (currentExpression == "0")
+            {
+                Debug.Log("<color=yellow>Enter a number first.</color>");
+                RefreshDisplay();
+                return;
+            }
+        }
+
         if (hasEvaluatedResult)
         {
             if (buttonType == Enums.CalculatorButtonType.Digit)
@@ -113,7 +130,22 @@ public class CalculationManager : MonoBehaviour
             return;
         }
 
-        calculatorScreen.UpdateScreen(currentExpression);
+        calculatorScreen.UpdateScreen(GetDisplayText(currentExpression));
+    }
+
+    private static string GetDisplayText(string expression)
+    {
+        if (string.IsNullOrEmpty(expression))
+        {
+            return "0";
+        }
+
+        if (EndsWithOperator(expression) && expression.Length > 1)
+        {
+            return expression.Substring(0, expression.Length - 1);
+        }
+
+        return expression;
     }
 
     private static bool EndsWithOperatorOrDecimalPoint(string expression)
@@ -124,6 +156,22 @@ public class CalculationManager : MonoBehaviour
         }
 
         char lastCharacter = expression[expression.Length - 1];
-        return lastCharacter == '+' || lastCharacter == '-' || lastCharacter == '*' || lastCharacter == '/' || lastCharacter == '.';
+        return IsOperator(lastCharacter) || lastCharacter == '.';
+    }
+
+    private static bool EndsWithOperator(string expression)
+    {
+        if (string.IsNullOrEmpty(expression))
+        {
+            return false;
+        }
+
+        char lastCharacter = expression[expression.Length - 1];
+        return IsOperator(lastCharacter);
+    }
+
+    private static bool IsOperator(char value)
+    {
+        return value == '+' || value == '-' || value == '−' || value == '*' || value == '/' || value == 'x' || value == 'X' || value == '×' || value == '÷';
     }
 }

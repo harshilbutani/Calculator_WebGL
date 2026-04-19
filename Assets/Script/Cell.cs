@@ -13,8 +13,12 @@ public class Cell : MonoBehaviour
     [SerializeField] private string cellValue;
 
     [Header("Cell Color")]
-    [SerializeField] private Color operatorCellColor;
-    [SerializeField] private Color digitCellColor;
+    [SerializeField] private Color silverGrayColor;
+    [SerializeField] private Color yellowColor;
+    [SerializeField] private Color firstRawColor;
+    [SerializeField] private bool useFirstRawColorForDigits;
+    [SerializeField] private bool useYellowColor;
+    [SerializeField] private bool useSilverGrayColor;
 
     [Header("Image")]
     [SerializeField] private Image cellImage;
@@ -55,20 +59,19 @@ public class Cell : MonoBehaviour
 
     public void SetCellColor()
     {
-        if (cellImage == null)
-        {
-            Debug.Log("<color=red>Cell Image is not assigned</color>");
-            return;
-        }
-
-        if (buttonType == Enums.CalculatorButtonType.Operator || buttonType == Enums.CalculatorButtonType.Equal)
-        {
-            cellImage.color = operatorCellColor;
-        }
-        else
-        {
-            cellImage.color = digitCellColor;
-        }
+       if(useFirstRawColorForDigits == true)
+       {
+        cellImage.color = firstRawColor;
+       }
+       else if (useYellowColor == true)
+       {
+        cellImage.color = yellowColor;
+       }
+       else      
+       {
+        cellImage.color = silverGrayColor;
+       }
+      
     }
 
     public void OnCellButtonPressed()

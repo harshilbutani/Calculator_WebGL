@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 189.57996, y: 196}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1827589377833138495
 CanvasRenderer:
@@ -156,7 +156,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 131, y: -97.65297}
-  m_SizeDelta: {x: 262, y: 195.30594}
+  m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5007934164600507596
 MonoBehaviour:
@@ -172,8 +172,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonType: 0
   cellValue: 
-  operatorCellColor: {r: 1, g: 0.6313726, b: 0.24313726, a: 1}
-  digitCellColor: {r: 0.34509805, g: 0.34509805, b: 0.35686275, a: 1}
+  silverGrayColor: {r: 0.3764706, g: 0.3764706, b: 0.3764706, a: 1}
+  yellowColor: {r: 1, g: 0.5921569, b: 0.23921569, a: 1}
+  firstRawColor: {r: 0.5372549, g: 0.5372549, b: 0.5372549, a: 1}
+  useFirstRawColorForDigits: 0
+  useYellowColor: 0
+  useSilverGrayColor: 0
   cellImage: {fileID: 5722678313182765888}
   cellText: {fileID: 1831930253812035351}
   cellButton: {fileID: 7711135661755545049}
@@ -274,7 +278,7 @@ MonoBehaviour:
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 75
+  m_fontSizeMax: 45
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
